@@ -1,13 +1,13 @@
 import streamlit as st
 
 
-# # 練習：數字金字塔
+# 練習：數字金字塔
 
-# st.write("## 練習：數字金字塔")
-# n = st.number_input("請輸入金字塔的層數", max_value=9, step=1)
-# n = int(n)
-# for i in range(1, (n + 1)):
-#     st.write(str(i) * i)
+st.write("## 練習：數字金字塔")
+n = st.number_input("請輸入金字塔的層數", max_value=9, step=1)
+n = int(n)
+for i in range(1, (n + 1)):
+    st.write(str(i) * i)
 
 
 # 練習：箭頭金字塔
