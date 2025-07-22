@@ -28,9 +28,11 @@ if "click_count" not in st.session_state:
 if st.button("click me"):
     st.session_state.click_count += 1
     st.write(st.session_state.click_count)
-if st.session_state.click_count == 100:
+if st.session_state.click_count == 10:
     st.balloons()
+    st.snow()
     st.session_state.click_count = 0
+
 
 if st.button("🎈"):
     st.balloons()
