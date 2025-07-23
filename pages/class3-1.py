@@ -59,5 +59,11 @@ Lc.pop()  # 移除最後的元素，也可以指定位置
 print(Lc)
 
 Ld = [3, 1, 5, 4, 2]
+print(Ld)
 Ld.sort()
 print(Ld)
+
+Le = ["apple", "monday", "small", "today"]
+Le.sort()
+print(Le)
+# 字串會按照首字母順序排列
