@@ -50,6 +50,25 @@ def calculate_square_area_3():
 
 length = 10
 calculate_square_area()
-calculate_square_area_2()
+print(calculate_square_area_2())
 calculate_square_area_3()
 print(area)
+
+
+# practice
+
+dis = 0
+
+
+def distance(x1, y1, x2, y2):
+    dis = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+    return dis
+
+
+print("請輸入兩個點的座標")
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+
+print(distance(x1, y1, x2, y2))
