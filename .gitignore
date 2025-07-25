@@ -1,0 +1,9 @@
+# VS Code
+.vscode/
+
+# Ignore environment files
+.streamlit/secrets.toml
+*.env
+
+# mac os
+.DS_Store
